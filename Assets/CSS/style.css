@@ -120,6 +120,40 @@ p {
     font-size: 36px;
 }
 
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+    .header h1 {
+        font-size: 36px;
+    }
+
+    .header div {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    .header div ul li {
+        margin-left: 10px;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .benefits {
+        display: none;
+    }
+
+    .search-engine-optimization, .online-reputation-management, .social-media-marketing {
+        height: auto;
+        padding: 20px;
+    }
+}
+
 .footer {
     padding: 30px;
     clear: both;
