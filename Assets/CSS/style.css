@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Base styles for the entire page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,6 +22,7 @@ body {
     font-size: 48px;
 }
 
+/* Style the 'seo' text within the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -41,15 +44,18 @@ body {
     margin-left: 25px;
 }
 
+/* Links styles */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraph text style */
 p {
     font-size: 16px;
 }
 
+/* Hero section styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +65,7 @@ p {
     background-position: center;
 }
 
+/* Float styles for images */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +76,14 @@ p {
     margin-left: 25px;
 }
 
+/* Main content area styles */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Benefits section styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,6 +111,7 @@ p {
     max-width: 150px;
 }
 
+/* Individual service section styles */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,7 +130,7 @@ p {
     font-size: 36px;
 }
 
-/* Small screens (up to 767px) */
+/* Media Queries for small screens (up to 767px) */
 @media (max-width: 767px) {
     .header h1 {
         font-size: 36px;
@@ -154,6 +164,7 @@ p {
     }
 }
 
+/* Footer styles */
 .footer {
     padding: 30px;
     clear: both;
